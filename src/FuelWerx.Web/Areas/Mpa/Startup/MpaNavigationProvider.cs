@@ -1,0 +1,31 @@
+using Abp.Application.Navigation;
+using Abp.Localization;
+using System;
+using System.Collections.Generic;
+
+namespace FuelWerx.Web.Areas.Mpa.Startup
+{
+	public class MpaNavigationProvider : NavigationProvider
+	{
+		public const string MenuName = "Mpa";
+
+		public MpaNavigationProvider()
+		{
+		}
+
+		private static ILocalizableString L(string name)
+		{
+			return new LocalizableString(name, "FuelWerx");
+		}
+
+		public override void SetNavigation(INavigationProviderContext context)
+		{
+			IDictionary<string, MenuDefinition> menus = context.Manager.Menus;
+			MenuDefinition menuDefinition = new MenuDefinition("Mpa", new FixedLocalizableString("Main Menu"), null);
+			MenuDefinition menuDefinition1 = menuDefinition;
+			menus["Mpa"] = menuDefinition;
+			MenuDefinition menuDefinition2 = menuDefinition1;
+			menuDefinition2.AddItem(new MenuItemDefinition("Tenants", MpaNavigationProvider.L("Tenants"), "icon-globe", "Mpa/Tenants", false, "Pages.Tenants", 0, null, null)).AddItem(new MenuItemDefinition("Editions", MpaNavigationProvider.L("Editions"), "icon-grid", "Mpa/Editions", false, "Pages.Editions", 0, null, null)).AddItem(new MenuItemDefinition("Dashboard.Tenant", MpaNavigationProvider.L("Dashboard"), "icon-home", "Mpa/Dashboard", false, "Pages.Tenant.Dashboard", 0, null, null)).AddItem((new MenuItemDefinition("FuelCast.Tenant", MpaNavigationProvider.L("FuelCast"), "icon-graph", "Mpa/FuelCast", false, "Pages.Tenant.FuelCast", 0, null, null)).AddItem(new MenuItemDefinition("Trucks.Tenant", MpaNavigationProvider.L("Trucks"), "fa fa-truck", "Mpa/Trucks", false, "Pages.Tenant.Trucks", 0, null, null)).AddItem(new MenuItemDefinition("FillLots.Tenant", MpaNavigationProvider.L("FuelLots"), "fa fa-filter", "Mpa/FillLots", false, "Pages.Tenant.FillLots", 0, null, null)).AddItem(new MenuItemDefinition("FuelCastSettings.Tenant", MpaNavigationProvider.L("Settings"), "fa fa-wrench", "Mpa/FuelCastSettings", false, "Pages.Tenant.FuelCastSettings", 0, null, null))).AddItem((new MenuItemDefinition("Invoices.Tenant", MpaNavigationProvider.L("Invoices"), "fa fa-file-text-o", "Mpa/Invoices", false, "Pages.Tenant.Invoices", 0, null, null)).AddItem(new MenuItemDefinition("InvoicePayments.Tenant", MpaNavigationProvider.L("InvoiceInvoices"), "fa fa-pencil", "Mpa/Invoices", false, "Pages.Tenant.Invoices", 0, null, null)).AddItem(new MenuItemDefinition("InvoicePayments.Tenant", MpaNavigationProvider.L("InvoicePayments"), "fa fa-money", "Mpa/Payments", false, "Pages.Tenant.InvoicePayments", 0, null, null))).AddItem(new MenuItemDefinition("Customers.Tenant", MpaNavigationProvider.L("Customers"), "icon-users", "Mpa/Customers", false, "Pages.Tenant.Customers", 0, null, null)).AddItem(new MenuItemDefinition("Suppliers.Tenant", MpaNavigationProvider.L("Suppliers"), "icon-share", "Mpa/Suppliers", false, "Pages.Tenant.Suppliers", 0, null, null)).AddItem(new MenuItemDefinition("Products.Tenant", MpaNavigationProvider.L("Products"), "fa fa-barcode", "Mpa/Products", false, "Pages.Tenant.Products", 0, null, null)).AddItem((new MenuItemDefinition("ProjectsAndEstimates.Tenant", MpaNavigationProvider.L("ProjectsAndEstimates"), "icon-notebook", "Mpa/ProjectAndEstimates", false, "Pages.Tenant.ProjectsAndEstimates", 0, null, null)).AddItem(new MenuItemDefinition("Projects.Tenant", MpaNavigationProvider.L("Projects"), "fa fa-hourglass-o", "Mpa/Projects", false, "Pages.Tenant.Projects", 0, null, null)).AddItem(new MenuItemDefinition("Estimates.Tenant", MpaNavigationProvider.L("Estimates"), "icon-pencil", "Mpa/Estimates", false, "Pages.Tenant.Estimates", 0, null, null))).AddItem((new MenuItemDefinition("Administration", MpaNavigationProvider.L("Administration"), "icon-wrench", null, false, null, 0, null, null)).AddItem(new MenuItemDefinition("Administration.OrganizationUnits", MpaNavigationProvider.L("OrganizationUnits"), "icon-layers", "Mpa/OrganizationUnits", false, "Pages.Administration.OrganizationUnits", 0, null, null)).AddItem(new MenuItemDefinition("Administration.Roles", MpaNavigationProvider.L("Roles"), "icon-briefcase", "Mpa/Roles", false, "Pages.Administration.Roles", 0, null, null)).AddItem(new MenuItemDefinition("Administration.Users", MpaNavigationProvider.L("Users"), "icon-users", "Mpa/Users", false, "Pages.Administration.Users", 0, null, null)).AddItem(new MenuItemDefinition("Administration.Contacts", MpaNavigationProvider.L("Contacts"), "icon-support", "Mpa/Contacts", false, "Pages.Administration.Contacts", 0, null, null)).AddItem(new MenuItemDefinition("Administration.Titles", MpaNavigationProvider.L("Titles"), "icon-list", "Mpa/Titles", false, "Pages.Administration.Titles", 0, null, null)).AddItem(new MenuItemDefinition("Administration.Taxes", MpaNavigationProvider.L("Taxes"), "fa fa-calculator", "Mpa/Taxes", false, "Pages.Administration.Taxes", 0, null, null)).AddItem(new MenuItemDefinition("Administration.TaxRules", MpaNavigationProvider.L("TaxRules"), "fa fa-institution", "Mpa/TaxRules", false, "Pages.Administration.TaxRules", 0, null, null)).AddItem(new MenuItemDefinition("Administration.EmergencyDeliveryFees", MpaNavigationProvider.L("EmergencyDeliveryFees"), "fa fa-truck", "Mpa/EmergencyDeliveryFees", false, "Pages.Administration.EmergencyDeliveryFees", 0, null, null)).AddItem(new MenuItemDefinition("Administration.Zones", MpaNavigationProvider.L("Zones"), "icon-grid", "Mpa/Zones", false, "Pages.Administration.Zones", 0, null, null)).AddItem(new MenuItemDefinition("Administration.Languages", MpaNavigationProvider.L("Languages"), "icon-flag", "Mpa/Languages", false, "Pages.Administration.Languages", 0, null, null)).AddItem(new MenuItemDefinition("Administration.AuditLogs", MpaNavigationProvider.L("AuditLogs"), "icon-lock", "Mpa/AuditLogs", false, "Pages.Administration.AuditLogs", 0, null, null)).AddItem(new MenuItemDefinition("Administration.Settings.Host", MpaNavigationProvider.L("Settings"), "icon-settings", "Mpa/HostSettings", false, "Pages.Administration.Host.Settings", 0, null, null)).AddItem(new MenuItemDefinition("Administration.Settings.Tenant", MpaNavigationProvider.L("Settings"), "icon-settings", "Mpa/Settings", false, "Pages.Administration.Tenant.Settings", 0, null, null)));
+		}
+	}
+}

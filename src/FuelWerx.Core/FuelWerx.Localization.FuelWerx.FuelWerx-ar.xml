@@ -1,0 +1,1077 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="ar">
+  <texts>
+    <text name="{0}UserInOrganizationUnitsListedAboveError" value="User can not be deleted until they are first removed from the Organizaton Unit(s) listed above." />
+    <text name="{0}ZoneInEmergencyDeliveryFeesListedAboveError" value="Zone can not be deleted until it is first removed from the Emergency Delivery Fee item(s) listed above." />
+    <text name="KeyName_DriversRole" value="Driver" />
+    <text name="KeyName_CustomersRole" value="Customer" />
+    <text name="DefaultCustomerGroupName" value="Customer" />
+    <text name="HomePage">الصفحة الرئيسية</text>
+    <text name="AboutUs">من نحن</text>
+    <text name="Administration">الإدارة</text>
+    <text name="Roles">الأدوار</text>
+    <text name="Users">المستخدمين</text>
+    <text name="InvalidFormMessage">النموذج يحتوي على أخطاء - يرجى تصحيح الأخطاء و المحاولة مرة اخرى</text>
+    <text name="InvalidUserNameOrPassword">اسم المستخدم أو كلمة المرور غير صحيحة</text>
+    <text name="ThereIsNoTenantDefinedWithName{0}">لا يوجد عميل  باسم {0}</text>
+    <text name="TenantIsNotActive">العميل {0} غير مغعّل</text>
+    <text name="UserIsNotActiveAndCanNotLogin">العضو {0} غير مفعّل ولا يمكن تسجيل الدخول</text>
+    <text name="PleaseEnterLoginInformation">الرجاء إدخال معلومات تسجيل الدخول</text>
+    <text name="TenancyName">اسم العميل</text>
+    <text name="UserNameOrEmail">اسم المستخدم أو البريد الإلكتروني</text>
+    <text name="Password">كلمة المرور</text>
+    <text name="RememberMe">تذكرنى</text>
+    <text name="LogIn">تسجيل الدخول</text>
+    <text name="ForgotPassword">هل نسيت كلمة المرور؟</text>
+    <text name="DontYouHaveAnAccount">ليس لديك حساب؟</text>
+    <text name="CreateAnAccount">إنشاء حساب</text>
+    <text name="Pages">الصفحات</text>
+    <text name="RoleName">اسم الدور</text>
+    <text name="EditRole">تحرير الدور</text>
+    <text name="CreateNewRole">إنشاء دور جديد</text>
+    <text name="RoleProperties">خصائص الدور</text>
+    <text name="Permissions">إذونات</text>
+    <text name="Save">حـفظ</text>
+    <text name="Cancel">إلغاء</text>
+    <text name="RolesHeaderInfo">إستخدم الأدوار لإنشاء مجموعة إذونات</text>
+    <text name="Static">مـثبت</text>
+    <text name="Actions">إجراءات</text>
+    <text name="Delete">حـذف</text>
+    <text name="SavedSuccessfully">تم الحفظ بنجاح.</text>
+    <text name="AreYouSure">هل أنت متأكد؟</text>
+    <text name="YesDelete">نعم إحذف</text>
+    <text name="DeletingUser"> حذف المستخدم</text>
+    <text name="UsersHeaderInfo">إدارة المستخدمين و الإذونات</text>
+    <text name="CreateNewUser">إنشاء مستخدم جديد</text>
+    <text name="UserName">اسم المستخدم</text>
+    <text name="Name">الإسم الأول</text>
+    <text name="Surname">الإسم الأخير</text>
+    <text name="EmailAddress">البريد الإلكتروني</text>
+    <text name="LastLoginTime">آخر تسجيل الدخول</text>
+    <text name="EditUser">تحرير المستخدم</text>
+    <text name="UserInformations">تفاصيل المستخدم</text>
+    <text name="PasswordRepeat">أعد كلمة المرور</text>
+    <text name="SuccessfullyDeleted">تم الحذف بنجاح</text>
+    <text name="RoleDeleteWarningMessage">سيتم حذف الدور {0} و سوف يتم إزالة إذونات جميع المستخدمين المعيين بهذا الدور</text>
+    <text name="UserDeleteWarningMessage">سيتم حذف المستخدم {0}.</text>
+    <text name="Active">مفعّل</text>
+    <text name="EmailConfirm"> تأكيد البريد الإلكتروني</text>
+    <text name="Yes">نـعم</text>
+    <text name="No">لا</text>
+    <text name="MySettings">إعداداتي</text>
+    <text name="Logout">تسجيل الخروج</text>
+    <text name="Reset">مسح</text>
+    <text name="ResetPermissionsTooltip"> هذا الزر سيقوم على الفور بمسح إذونات المستخدم. المستخدم سيملك الإذونات المرتبطة بالأدوار المعينة من قبل</text>
+    <text name="ResetSuccessfully">تم المسح بنجاح</text>
+    <text name="Tenants">عملاء</text>
+    <text name="TenantsHeaderInfo">إدارة العملاء</text>
+    <text name="CreateNewTenant">إنشاء عميل الجديد</text>
+    <text name="TenancyCodeName">كود العميل</text>
+    <text name="TenantName">اسم العميل</text>
+    <text name="TenantDeleteWarningMessage">سيتم حذف العميل {0}</text>
+    <text name="AdminEmailAddress">البريد الإلكتروني للمشرف</text>
+    <text name="AdminPassword">كلمة مرور المشرف</text>
+    <text name="AdminPasswordRepeat">إعادة كلمة مرور المشرف</text>
+    <text name="EditTenant">تحرير العميل</text>
+    <text name="ChangingPermissions">تغيير الإذونات</text>
+    <text name="EditingUser"> تحرير المستخدم </text>
+    <text name="CreatingNewUser"> إنشاء مستخدم جديد</text>
+    <text name="Edit">تحرير</text>
+    <text name="EditingTenant">تحرير العميل</text>
+    <text name="CreatingNewTenant">إنشاء عميل الجديد</text>
+    <text name="DeletingTenant">حذف العميل</text>
+    <text name="EditingRole"> تحرير الدور</text>
+    <text name="CreatingNewRole"> إنشاء دور جديد</text>
+    <text name="DeletingRole"> حذف الدور</text>
+    <text name="CreationTime">وقت الإنشاء</text>
+    <text name="SearchWithThreeDot">بـحث...</text>
+    <text name="ResetSpecialPermissions">مسح الإذونات الخاصة</text>
+    <text name="SavingWithThreeDot">حـفظ...</text>
+    <text name="Settings">الإعدادات</text>
+    <text name="SaveAll">إحفظ الكل</text>
+    <text name="SettingsHeaderInfo">عرض وتغيير إعدادات النظام</text>
+    <text name="EmailSmtp">البريد الإلكتروني</text>
+    <text name="DefaultFromAddress">البريد الإلكتروني الافتراضي للمرسل</text>
+    <text name="DefaultFromDisplayName">إسم العرض - للبريد الإلكتروني</text>
+    <text name="SmtpHost">عنوان خادم البريد الإلكتروني - SMTP Host</text>
+    <text name="SmtpPort">رقم المنفذ لخادم البريد الإلكتروني - SMTP Port</text>
+    <text name="UseDefaultCredentials">استخدام معلومات الدخول الافتراضية</text>
+    <text name="DomainName">اسم النطاق</text>
+    <text name="UseSsl">إستخدم SSL</text>
+    <text name="ThisWebSiteRootAddress">عنوان جذر الموقع</text>
+    <text name="ThisWebSiteRootAddress_Hint">سيتم استخدامه عند بناء وصلات تلقائية لبعض المهام. مثل بناء الروابط لإعادة تعيين كلمة المرور. مثال: http://mydomain.com/ </text>
+    <text name="General">عــام</text>
+    <text name="SendPasswordResetLink_Information">سيتم إرسال رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني. إذا لم يصلك البريد الإلكتروني في غضون بضع دقائق, الرجاء أعد المحاولة.</text>
+    <text name="Send">إرسال</text>
+    <text name="PasswordReset">إعادة تعيين كلمة المرور</text>
+    <text name="InvalidUserNameOrEmailAddress">اسم المستخدم أو البريد الإلكتروني غير صحيح</text>
+    <text name="PasswordResetEmail_Subject">إعادة تعيين كلمة المرور FuelWerx</text>
+    <text name="PasswordResetEmail_Title">إعادة تعيين كلمة المرور FuelWerx</text>
+    <text name="PasswordResetEmail_SubTitle">.تم إرسال هذا البريد الإلكتروني لك لإعادة تعيين كلمة المرور</text>
+    <text name="PasswordResetEmail_ClickTheLinkBelowToResetYourPassword">يرجى الضغط على الرابط بالأسفل لإعادة تعيين كلمة المرور.</text>
+    <text name="EmailActivation_Subject">FuelWerx تفعيل حساب</text>
+    <text name="EmailActivation_Title">FuelWerx مرحبا بك في</text>
+    <text name="EmailActivation_SubTitle">تم إرسال هذه الرساله لتأكيد بريدك الإلكتروني.</text>
+    <text name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail">يرجى الضغط على الرابط أدناه لتأكيد البريد الإلكتروني:</text>
+    <text name="InvalidEmailAddress">البريدالالكتروني غير صحيح</text>
+    <text name="InvalidPasswordResetCode">رمز إعادة تعيين كلمة المرور غير صحيح</text>
+    <text name="InvalidPasswordResetCode_Detail">من فضلك تأكد من دخول هذه الصفحة بالضغط على الرابط المرسل إلى بريدك الإلكتروني.  إذا كان هذا لا يحل المشكلة، يمكنك محاولة إعادة تعيين كلمة المرور مره اخرى</text>
+    <text name="PleaseEnterYourNewPassword">الرجاء إدخال كلمة المرور الجديدة</text>
+    <text name="UserEmailIsNotConfirmedAndCanNotLogin">لم يتم تأكيد عنوان بريدك الإلكتروني. يرجى التحقق من بريدك الالكتروني والضغط على رابط تأكيد البريد الإلكتروني لتفعيل حسابك. إذا لم تستلم الرسالة إضغط على "تاكيد البريد الإلكتروني" لإرسال الطلب مره اخرى </text>
+    <text name="LoginFailed">لم نتمكن من تسجيل الدخول!</text>
+    <text name="InvalidEmailConfirmationCode">رمز تأكيد البريد الإلكتروني غير صحيح</text>
+    <text name="InvalidEmailConfirmationCode_Detail">من فضلك تأكد من دخول هذه الصفحة بالضغط على الرابط المرسل إلى بريدك الإلكتروني. إذا كان هذا لا يحل المشكلة، يمكنك محاولة إعادة إرسال رمز التأكيد من جديد.</text>
+    <text name="YourEmailIsConfirmedMessage">تم تأكيد بريدك الإلكتروني بنجاح</text>
+    <text name="ShouldChangePasswordOnNextLogin">يجب تغيير كلمة المرور عند تسجيل الدخول المقبل</text>
+    <text name="SetRandomPassword">تعيين كلمة مرور عشوائية.</text>
+    <text name="EmailActivation">تفعيل البريد الإلكتروني</text>
+    <text name="SendEmailActivationLink_Information">سيتم إرسال رابط تأكيد بريدك الإلكتروني. إذا لم يصلك البريد الإلكتروني في غضون بضع دقائق, الرجاء أعد المحاولة.</text>
+    <text name="SendActivationEmail">إرسال رسالة تفعيل البريد الإلكتروني.</text>
+    <text name="ChangePassword">تغيير كلمة المرور</text>
+    <text name="CurrentPassword">كلمة المرور الحالية</text>
+    <text name="NewPassword">كلمة المرور الجديدة</text>
+    <text name="NewPasswordRepeat">إعادة كلمة المرور الجديدة</text>
+    <text name="YourPasswordHasChangedSuccessfully">تم تغيير كلمة المرور بنجاح</text>
+    <text name="SelfUserRegistrationIsDisabledMessage">لا يمكنك الإشتراك بالنظام</text>
+    <text name="SelfUserRegistrationIsDisabledMessage_Detail">تم تعطيل إشتراك المستخدم الذاتي يرجى الاتصال بمسؤول النظام للإشتراك.</text>
+    <text name="SuccessfullyRegistered">تم الإشتراك بنجاح</text>
+    <text name="ConfirmationMailSentPleaseClickLinkInTheEmail">تم إرسال تأكيد البريد الإلكتروني إلى  {0} الرجاء الضغط على الرابط في الرسالة لتأكيد بريدك الإلكتروني</text>
+    <text name="YourAccountIsWaitingToBeActivatedByAdmin">حسابك بإنتظار أن يتم تفعيله من قبل مشرف النظام.</text>
+    <text name="NameSurname">الإسم</text>
+    <text name="UserManagement">إدارةالمستخدمين</text>
+    <text name="AllowUsersToRegisterThemselves">السماح للمستخدمين بالإشتراك الذاتي على النظام.</text>
+    <text name="AllowUsersToRegisterThemselves_Hint">إذا قمت بتعطيل هذه الخاصية, لا يمكن إضافة المستخدمين إلا من قبل المشرف باستخدام صفحة إدارة المستخدمين</text>
+    <text name="NewRegisteredUsersIsActiveByDefault">المستخدمين الجدد المسجلين هم مغعّلين افتراضيا</text>
+    <text name="NewRegisteredUsersIsActiveByDefault_Hint">إذا قمت بتعطيل هذه الخاصية, المستخدمين الجدد غير مغعّلين (لن يتمكنوا من تسجيل الدخول) حتى يقوم المشرف بتفعيل الحساب يدويا</text>
+    <text name="Default">افتراضي</text>
+    <text name="DefaultRole_Description">تعيين للمستخدمين الجدد كإفتراضي</text>
+    <text name="StaticRole_Tooltip">لا يمكن حذف أدوار ثابتة.</text>
+    <text name="EmailConfirmationRequiredForLogin">مطلوب تأكيد البريد الإلكتروني لتسجيل الدخول </text>
+    <text name="{0}UserCannotBeDeleted">لا يمكن حذف المستخدم {0}.</text>
+    <text name="TenantNameCanNotBeEmpty">اسم العميل لا يمكن أن يكون فارغا</text>
+    <text name="ExportToExcel">تصدير إلى إكسل - Excel</text>
+    <text name="ChangeProfilePicture">تغيير الصورة الشخصية</text>
+    <text name="TenantName_Regex_Description">يجب أن يكون اسم العميل على الأقل حرفين ويبدأ بحرف ومن ثم : حرف أو رقم أو شرطه أو شرطه سفلية.</text>
+    <text name="ProfilePicture_Change_Info">يمكنك إختيار ملف JPG/JPEG وبحد أقصى للحجم 30 كيلوبايت  </text>
+    <text name="ProfilePicture_Change_Error">تعذّر تغيير صورة ملفك الشخصي</text>
+    <text name="ProfilePicture_Warn_SizeLimit">يجب أن يكون حجم الصورة أصغر من 30 كيلوبايت يرجى تحديد ملف آخر</text>
+    <text name="ProfilePicture_Warn_FileType">  يرجى تحديد ملف آخر  JPG / JPEG  يمكنك فقط اختيار ملف</text>
+    <text name="Dashboard">لوحة القيادة</text>
+    <text name="DashboardHeaderInfo">الإحصاءات والتقارير</text>
+    <text name="GoToApplication">الى النظام</text>
+    <text name="TenantInformations">معلومات العميل</text>
+    <text name="PersonalInformations">معلومات شخصية</text>
+    <text name="AccountSettings">إعدادات الحساب</text>
+    <text name="Captha_Hint">الرجاء إدخال الرمز الذي يظهر في الصورة أدناه</text>
+    <text name="Back">العودة</text>
+    <text name="Submit">أرسل</text>
+    <text name="SignUp">إشترك</text>
+    <text name="CaptchaCanNotBeEmpty">الرمز لا يمكن أن يكون فارغا.</text>
+    <text name="IncorrectCaptchaAnswer">الرمز غير صحيح.</text>
+    <text name="FormIsNotValidMessage">النموذج يحتوي على أخطاء. يرجى مراجعة وتصحيح الأخطاء</text>
+    <text name="CanNotChangeAdminUserName">لا يمكن تغيير اسم مستخدم المشرف</text>
+    <text name="Error">خطأ</text>
+    <text name="OopsYouAreLost">عذرا! هل أنت ضال</text>
+    <text name="WeCanNotFindThePage">لم نتمكن من العثور على الصفحة التي تبحث عنها.</text>
+    <text name="DashboardDemo_Note_Title">مرحبا بكم في فويلويركس!</text>
+    <text name="DashboardDemo_Note_Info">هذه هي مرة أولى مستخدم رسالة، أو إشعار بحاجة إلى عرض و "closed" بالمستخدم النهائي.</text>
+    <text name="WelcomePage_Title">أهلا بك!</text>
+    <text name="WelcomePage_Info">مرحبا بك بالنظام. يمكنك استخدام القائمة لبدء استخدام النظام. إذا كنت لا ترى أي عنصر بالقائمة ربما لم يكن لديك إذونات. يرجى مراجعة مشرف النظام للحصول على إذونات بالنظام.</text>
+    <text name="RequestedFileDoesNotExists">لم نعثر على الملف المطلوب</text>
+    <text name="MailSent">تم إرسال البريد</text>
+    <text name="PasswordResetMailSentMessage">رابط إعادة تعيين كلمة المرور تم إرساله إلى بريدك الإلكتروني. يرجى التحقق من رسائل بريدك الإلكتروني  </text>
+    <text name="ActivationMailSentMessage">رابط  تأكيد البريد الإلكتروني تم إرساله إلى بريدك الإلكتروني.  يرجى التحقق من رسائل بريدك الإلكتروني  </text>
+    <text name="UseCaptchaOnRegistration">استخدام صورة الأمان (captcha) عند الإشتراك.</text>
+    <text name="FormBasedRegistration">نوعية الإشتراك (form)</text>
+    <text name="LdapSettings">إعدادات LDAP</text>
+    <text name="EnableLdapAuthentication">تمكين مصادقة LDAP</text>
+    <text name="OtherSettings">إعدادات اخرى</text>
+    <text name="AuditLogs">سجلات التدقيق</text>
+    <text name="Success">نجاح</text>
+    <text name="Time">وقت</text>
+    <text name="Service">خدمة</text>
+    <text name="Action">حركة</text>
+    <text name="Duration">المدة الزمنية</text>
+    <text name="IpAddress">عنوان IP</text>
+    <text name="Client">زبون</text>
+    <text name="Browser">المتصفح</text>
+    <text name="Xms">{0} جزء ث.</text>
+    <text name="Close">إغلاق</text>
+    <text name="Refresh">تحديث</text>
+    <text name="ErrorState">حالة خطأ</text>
+    <text name="All">الجميع</text>
+    <text name="HasError">يوجد خطأ</text>
+    <text name="ShowAdvancedFilters">إظهار الفلاتر المتقدمة</text>
+    <text name="HideAdvancedFilters">إخفاء الفلاتر المتقدمة</text>
+    <text name="AuditLogDetail">تفاصيل سجل التدقيق</text>
+    <text name="Parameters">المعلمات</text>
+    <text name="DateRange">نطاق التاريخ</text>
+    <text name="ActionInformations">معلومات العمل</text>
+    <text name="Today">اليوم</text>
+    <text name="Yesterday">اليوم السابق</text>
+    <text name="Last7Days">اخر 7 ايام</text>
+    <text name="Last30Days">اخر 30 يوم</text>
+    <text name="ThisMonth">هذا الشهر</text>
+    <text name="LastMonth">الشهر الماضي</text>
+    <text name="TenantSelection">اختيار العميل</text>
+    <text name="TenantSelection_Detail">الرجاء اختيار واحد من العملاء</text>
+    <text name="LoginWith">تسجيل الدخول مع:</text>
+    <text name="PasswordChangeDontRememberMessage">إذا كنت لا تتذكر كلمة المرور {0} {</text>
+    <text name="ClickHere">إضغط هنا</text>
+    <text name="Apply">تطبيق</text>
+    <text name="CustomRange">مدى مخصص</text>
+    <text name="Edition">طبعة</text>
+    <text name="Editions">الطبعات</text>
+    <text name="EditionsHeaderInfo">إدارة الطبعات ومميزات النظام</text>
+    <text name="CreateNewEdition">إنشاء طبعة جديدة</text>
+    <text name="EditEdition">تحرير طبعة</text>
+    <text name="EditionProperties">خصائص الطبعة</text>
+    <text name="EditionName">اسم الطبعة</text>
+    <text name="Features">مميزات</text>
+    <text name="EditionDeleteWarningMessage">سيتم حذف {0} وسحبها من جميع العملاء</text>
+    <text name="CreatingNewEdition">إنشاء طبعة جديدة</text>
+    <text name="EditingEdition"> تحرير الطبعة</text>
+    <text name="DeletingEdition">حذف الطبعة</text>
+    <text name="ChangingFeatures"> تغيير المميزات</text>
+    <text name="ResetSpecialFeatures">مسح المميزات الخاصة</text>
+    <text name="ResetFeaturesTooltip">هذا الزر سيقوم على الفور بمسح المميزات للعميل. العميل سيملك المميزات المرتبطة بالطبعات المعينة من قبل.</text>
+    <text name="NotAssigned">لم يعيّن</text>
+    <text name="InvalidFeaturesWarning">واحد أو أكثر من قيم الميزة غير صحيح</text>
+    <text name="Languages">اللغات</text>
+    <text name="LanguagesHeaderInfo">إدارة لغات واجهة المستخدم</text>
+    <text name="CreateNewLanguage">إنشاء لغة جديدة</text>
+    <text name="Code">رمز</text>
+    <text name="CreatingNewLanguage"> إنشاء لغة جديدة</text>
+    <text name="EditingLanguage">  تحرير الغة</text>
+    <text name="DeletingLanguages"> حذف اللغة</text>
+    <text name="ChangingTexts"> تغيير النصوص</text>
+    <text name="SuccessfullySaved">تم الحـفظ بنجاح</text>
+    <text name="Language">لغة</text>
+    <text name="SupplierDeleteWarningMessage" value="Supplier {0} will be deleted." />
+    <text name="SuppliersHeaderInfo" value="Manage suppliers." />
+    <text name="EditSupplier" value="Edit Supplier" />
+    <text name="SupplierInformations" value="Supplier informations" />
+    <text name="Supplier" value="Supplier" />
+    <text name="Suppliers" value="Suppliers" />
+    <text name="CreateNewSupplier" value="Add New" />
+    <text name="CreatingNewSupplier" value="Creating new supplier" />
+    <text name="EditingSupplier" value="Editing supplier" />
+    <text name="DeletingSuppliers" value="Deleting supplier" />
+    <text name="ProjectsAndEstimates" value="Projects &amp; Estimates" />
+    <text name="Projects" value="Projects" />
+    <text name="ViewingEstimates" value="View Estimates" />
+    <text name="CreatingNewEstimate" value="New Estimate" />
+    <text name="Flag">علم</text>
+    <text name="SetAsDefaultLanguage">تعيين اللغة الافتراضية</text>
+    <text name="InvlalidLanguageCode">رمز اللغة غير صحيح</text>
+    <text name="EditLanguage">تحرير اللغة</text>
+    <text name="ChangeTexts">تغيير النصوص</text>
+    <text name="TargetValue">النص الهدف</text>
+    <text name="BaseValue">النص الأساسي</text>
+    <text name="Key">مفتاح</text>
+    <text name="SaveAndClose">حـفظ وإغلاق</text>
+    <text name="SaveAndNext">حـفظ و التالي</text>
+    <text name="EditText">تحرير النص</text>
+    <text name="LanguageTexts">نصوص اللغة</text>
+    <text name="LanguageTextsHeaderInfo">تعديل نصوص الغات</text>
+    <text name="EmptyOnes">الفارغة</text>
+    <text name="Source">مصدر</text>
+    <text name="BaseLanguage">اللغة الأساسية</text>
+    <text name="TargetLanguage">اللغة الهدف</text>
+    <text name="Previous">السابق</text>
+    <text name="LanguageDeleteWarningMessage">هل أنت متأكد من حذف اللغة {0}</text>
+    <text name="CanNotEditOrDeleteDefaultLanguages">لا يمكن تعديل أو حذف اللغات الافتراضية. يمكنك فقط تعديل أو حذف اللغات التي قمت بإضافتها. ولكن يمكنك تغيير نصوص جميع اللغات</text>
+    <text name="ThisLanguageAlreadyExists" value="هذه اللغة موجودة مسبقا" />
+    <text name="SupplierName" value="Name of Supplier" />
+    <text name="Description" value="Description" />
+    <text name="PhoneNumber" value="Phone Number" />
+    <text name="MobilePhoneNumber" value="Mobile Number" />
+    <text name="Address" value="Address" />
+    <text name="SecondaryAddress" value="Secondary Address" />
+    <text name="City" value="Secondary City" />
+    <text name="CountryRegion" value="State/Province" />
+    <text name="Country" value="Country" />
+    <text name="PostalCode" value="Postal Code" />
+    <text name="SupplierPrimaryContact" value="Primary Contact" />
+    <text name="ContactName" value="Name" />
+    <text name="ContactEmail" value="Email" />
+    <text name="SelectCountry" value="" />
+    <text name="SelectCountryRegion" value="" />
+    <text name="ChangeSupplierLogo" value="Update Supplier Logo" />
+    <text name="SupplierIdentifier" value="ID" />
+    <text name="SupplierLogo" value="Update Suppliers Logo" />
+    <text name="SupplierLogo_Change_Info" value="Select a jpg or jpeg file no larger than 30 kilobytes." />
+    <text name="SupplierLogo_Change_Info_DeleteExisting" value="Delete Existing Logo" />
+    <text name="SupplierLogo_Change_Error" value="Supplier logo could not be updated." />
+    <text name="SupplierLogo_Warn_SizeLimit" value="Logo size must be smalled than 30KB. Please select another file." />
+    <text name="SupplierLogo_Warn_FileType" value="You can only select JPG/JPEG file. Please select another file." />
+    <text name="ChangeSupplier_Warn_FileType" value="You can only select JPG/JPEG file. Please select another file." />
+    <text name="SupplierLogo_UpdatedMessage" value="Supplier Logo Updated" />
+    <text name="SupplierLogo_DeletedMessage" value="Supplier Logo Deleted" />
+    <text name="SupplierLogo_DeletedMessageException" value="Supplier logo deletion failed." />
+    <text name="SupplierLogoDeleteWarningMessage" value="Are you sure?" />
+    <text name="ExportingSuppliers" value="Exporting Suppliers" />
+    <text name="Customers" value="Customers" />
+    <text name="CreatingNewCustomer" value="New" />
+    <text name="EditingCustomer" value="Edit" />
+    <text name="DeletingCustomers" value="Delete" />
+    <text name="ExportingCustomers" value="Exporting" />
+    <text name="CreateNewCustomer" value="Add New Customer" />
+    <text name="CustomerHeaderInfo" value="Manage Customers" />
+    <text name="CustomerIdentifier" value="ID" />
+    <text name="FirstName" value="First Name" />
+    <text name="LastName" value="Last Name" />
+    <text name="BusinessName" value="Business Name" />
+    <text name="CustomerInformations" value="Customer Information" />
+    <text name="EditCustomer" value="Edit customer" />
+    <text name="Email" value="Email address" />
+    <text name="AddressType" value="Address type" />
+    <text name="AddressContactName" value="Adress Contact" />
+    <text name="PhoneType" value="Phone type" />
+    <text name="BankAccountType" value="Bank account type" />
+    <text name="BankName" value="Bank name" />
+    <text name="BankAccountNumber" value="Account Number" />
+    <text name="BankNote" value="Note" />
+    <text name="CustomerDeleteWarningMessage" value="Are you sure you wish to delete {0} as a customer?" />
+    <text name="CreateNewProduct" value="Add New Product" />
+    <text name="ProductIdentifier" value="ID" />
+    <text name="ProductName" value="Name" />
+    <text name="ProductReference" value="Reference code" />
+    <text name="ProductSku" value="SKU" />
+    <text name="ProductBasePrice" value="Base price" />
+    <text name="ProductQuantityOnHand" value="On hand" />
+    <text name="ProductQuantitySoldIn" value="Packaged as" />
+    <text name="ProductFinalPrice" value="Retail" />
+    <text name="ProductInformations" value="Product Information" />
+    <text name="ProductOptionInformations" value="Product Options" />
+    <text name="ProductOptionName" value="Option Name" />
+    <text name="ProductOptionValue" value="Value" />
+    <text name="ProductOptionComment" value="Note" />
+    <text name="ProductTitle" value="Name" />
+    <text name="ProductDescription" value="Description" />
+    <text name="ProductImage" value="Image" />
+    <text name="Contacts" value="Contacts" />
+    <text name="ContactsHeaderInfo" value="Manage Contacts" />
+    <text name="CreateNewContact" value="Add New Contact" />
+    <text name="ContactIdentifier" value="ID" />
+    <text name="ContactInformations" value="Contact Information" />
+    <text name="ContactTitle" value="Title" />
+    <text name="ContactImage" value="Image" />
+    <text name="Titles" value="Titles" />
+    <text name="TitlesHeaderInfo" value="Manage Titles" />
+    <text name="CreateNewTitle" value="Add New Title" />
+    <text name="TitleIdentifier" value="ID" />
+    <text name="TitleType" value="Gender" />
+    <text name="TitleInformations" value="Title Information" />
+    <text name="TitleName" value="Name" />
+    <text name="Taxes" value="Taxes" />
+    <text name="TaxesHeaderInfo" value="Manage Taxes" />
+    <text name="CreateNewTax" value="Add New Tax" />
+    <text name="TaxIdentifier" value="ID" />
+    <text name="TaxName" value="Name" />
+    <text name="TaxRate" value="Rate" />
+    <text name="TaxCaption" value="Caption" />
+    <text name="TaxInformations" value="Tax Information" />
+    <text name="TaxRules" value="Tax Rules" />
+    <text name="TaxRulesHeaderInfo" value="Manage Tax Rules" />
+    <text name="CreateNewTaxRule" value="Add New Tax Rule" />
+    <text name="TaxRuleIdentifier" value="ID" />
+    <text name="TaxRuleName" value="Name" />
+    <text name="TaxRuleCaption" value="Rule Caption" />
+    <text name="EmergencyDeliveryFees" value="Emergency Delivery Fees" />
+    <text name="EmergencyDeliveryFeesHeaderInfo" value="Manage Emergency Delivery Fees" />
+    <text name="CreateNewEmergencyDeliveryFee" value="Add New Emergency Delivery Fee" />
+    <text name="EmergencyDeliveryFeeIdentifier" value="ID" />
+    <text name="EmergencyDeliveryFeeName" value="Name" />
+    <text name="EmergencyDeliveryFeeZone" value="Zone" />
+    <text name="EmergencyDeliveryFeeFee" value="Fee" />
+    <text name="EmergencyDeliveryFeeRules" value="Emergency Delivery Fee Rules" />
+    <text name="EmergencyDeliveryFeeRulesHeaderInfo" value="Manage Emergency Delivery Fee Rules" />
+    <text name="CreateEmergencyDeliveryFeeRule" value="Add New Emergency Delivery Fee Rule" />
+    <text name="EmergencyDeliveryFeeRuleIdentifier" value="ID" />
+    <text name="EmergencyDeliveryFeeRuleName" value="Name" />
+    <text name="EmergencyDeliveryFeeRuleCaption" value="Caption" />
+    <text name="Zones" value="Zones" />
+    <text name="ZonesHeaderInfo" value="Manage Zones" />
+    <text name="CreateNewZone" value="Add New Zone" />
+    <text name="ZoneIdentifier" value="ID" />
+    <text name="ZoneName" value="Name" />
+    <text name="ZoneCaption" value="Caption" />
+    <text name="ZoneInformations" value="Zone Information" />
+    <text name="Invoices" value="Invoices" />
+    <text name="InvoiceHeaderInfo" value="Manage Invoices" />
+    <text name="CreateNewInvoice" value="Add New Invoice" />
+    <text name="InvoiceInformations" value="Invoice Information" />
+    <text name="InvoiceDetails" value="Invoice Details" />
+    <text name="InvoiceTaskInformations" value="Task Information" />
+    <text name="InvoiceCustomer" value="Customer" />
+    <text name="InvoiceNumber" value="Invoice Number" />
+    <text name="InvoiceDate" value="Date" />
+    <text name="InvoiceDescription" value="Description" />
+    <text name="InvoicePONumber" value="P.O. Number" />
+    <text name="InvoiceQuantity" value="Quantity" />
+    <text name="InvoiceRate" value="Price" />
+    <text name="InvoiceHours" value="Hours" />
+    <text name="InvoiceDiscount" value="Discount" />
+    <text name="InvoiceLineTotal" value="Total" />
+    <text name="NotesVisibleToCustomer" value="Notes Visible to Customer" />
+    <text name="TimeEntryLogVisibleToCustomer" value="Time Entry Visible to Customer" />
+    <text name="InvoiceCurrentStatus" value="Status" />
+    <text name="InvoiceTimeEntryLog" value="Time Entry" />
+    <text name="InvoiceTerms" value="Terms" />
+    <text name="InvoiceTaskName" value="Task Name" />
+    <text name="InvoiceTaskCost" value="Task Cost" />
+    <text name="InvoiceTaskDiscount" value="Task Discount" />
+    <text name="InvoiceTaskComment" value="Task Comment" />
+    <text name="TaskIsComplete" value="Completed" />
+    <text name="CreateNewProject" value="Add New Project" />
+    <text name="ProjectsHeaderInfo" value="Manage Projects" />
+    <text name="ProjectIdentifier" value="ID" />
+    <text name="ProjectNumber" value="Reference No." />
+    <text name="ProjectCustomer" value="Customer" />
+    <text name="ProjectLabel" value="Name" />
+    <text name="ProjectPONumber" value="P.O. Number" />
+    <text name="ProjectRate" value="Estimate" />
+    <text name="ProjectLineItemTotal" value="Total" />
+    <text name="ProjectCurrentStatus" value="Status" />
+    <text name="ProjectNumberOfTasks" value="Task Items" />
+    <text name="ProjectDate" value="Date" />
+    <text name="ProjectInformations" value="Project Information" />
+    <text name="ProjectDetails" value="Details" />
+    <text name="ProjectTaskInformations" value="Tasks" />
+    <text name="ProjectBillingType" value="Billing Rate Group" />
+    <text name="ProjectNewCustomerFirstName" value="First Name" />
+    <text name="ProjectNewCustomerLastName" value="Last Name" />
+    <text name="ProjectNewCustomerEmail" value="Email" />
+    <text name="ProjectDescription" value="Description" />
+    <text name="ProjectHours" value="Estimated Hours" />
+    <text name="ProjectHoursActual" value="Actual Hours" />
+    <text name="ProjectDiscount" value="Discount" />
+    <text name="ProjectLineTotal" value="Total" />
+    <text name="LogDataAndTasksVisibleToCustomer" value="Activity Visible to Customer" />
+    <text name="ProjectTimeEntryLog" value="Enter Time Resources for Project" />
+    <text name="ProjectTerms" value="Terms" />
+    <text name="ProjectTaskName" value="Task Name" />
+    <text name="ProjectTaskCost" value="Cost" />
+    <text name="ProjectTaskDiscount" value="Discount" />
+    <text name="ProjectTaskComment" value="Comment" />
+    <text name="EditProjectTeamMembers" value="Team Members" />
+    <text name="ProjectView_Title" value="Project Title" />
+    <text name="ProjectView_SubTitle" value="Subtitle" />
+    <text name="ProjectDeleteWarningMessage" value="Your Project Will Be Deleted!" />
+    <text name="Estimates" value="Estimates" />
+    <text name="EstimatesHeaderInfo" value="Manage Estimates" />
+    <text name="CreateNewEstimate" value="Add New Estimate" />
+    <text name="EstimateIdentifier" value="ID" />
+    <text name="EstimateNumber" value="Reference No." />
+    <text name="EstimateCustomer" value="Customer" />
+    <text name="EstimateLabel" value="Name" />
+    <text name="EstimatePONumber" value="P.O. Number" />
+    <text name="EstimateRate" value="Estimate" />
+    <text name="EstimateLineItemTotal" value="Total" />
+    <text name="EstimateCurrentStatus" value="Status" />
+    <text name="EstimateNumberOfTasks" value="Task Items" />
+    <text name="EstimateDate" value="Date" />
+    <text name="EstimateInformations" value="Estimate Information" />
+    <text name="EstimateDetails" value="Details" />
+    <text name="EstimateTaskInformations" value="Tasks" />
+    <text name="EstimateNewCustomerFirstName" value="First Name" />
+    <text name="EstimateNewCustomerLastName" value="Last Name" />
+    <text name="EstimateNewCustomerEmail" value="Email" />
+    <text name="EstimateDescription" value="Description" />
+    <text name="EstimateHours" value="Estimated Hours" />
+    <text name="EstimateHoursActual" value="Actual Hours" />
+    <text name="EstimateDiscount" value="Discount" />
+    <text name="EstimateLineTotal" value="Total" />
+    <text name="EstimateTimeEntryLog" value="Enter Time Resources for Estimate" />
+    <text name="EstimateTerms" value="Terms" />
+    <text name="EstimateTaskName" value="Task Name" />
+    <text name="EstimateTaskCost" value="Cost" />
+    <text name="EstimateTaskDiscount" value="Discount" />
+    <text name="EstimateTaskComment" value="Comment" />
+    <text name="EstimateCopyHeader" value="Duplicate Estimate" />
+    <text name="EstimateCopyLabelAppendage" value="Copy" />
+    <text name="EstimateNewlyCopiedDefaultStatus" value="Current Copied Status" />
+    <text name="EstimateDeleteWarningMessage" value="Your Estimate Will Be Deleted!" />
+    <text name="EstimateAcceptAsProjectConfirmationMessage" value="Convert This Estimate to a Project?" />
+    <text name="TenantDataManagement" value="Company Information" />
+    <text name="TenantCompanyName" value="Company Name" />
+    <text name="TenantCompanyNameCannotChangeNotification" value="" />
+    <text name="TenantCompanyPhoneNumber" value="Main Phone" />
+    <text name="TenantCompanyPhoneNumberSecondary" value="Alternate Phone" />
+    <text name="TenantCompanyMobilePhoneNumber" value="Mobile Phone" />
+    <text name="TenantCompanyAddressPrimaryHeader" value="Street Address Info" />
+    <text name="TenantCompanyAddressMailingHeader" value="Mailing Address Info" />
+    <text name="TenantCompanyAddress" value="Street Address" />
+    <text name="TenantCompanyMailingAddress" value="Mailing Address" />
+    <text name="TenantCompanySecondaryAddress" value="Secondary Address" />
+    <text name="TenantCompanyMailingSecondaryAddress" value="Secondary Mailing Address" />
+    <text name="TenantCompanyCity" value="City" />
+    <text name="TenantCompanyMailingCity" value="Mailing City" />
+    <text name="TenantCompanyCountry" value="Country" />
+    <text name="TenantCompanyMailingCountry" value="Mailing Country" />
+    <text name="TenantCompanyCountryRegion" value="Region" />
+    <text name="TenantCompanyMailingCountryRegion" value="Mailing Region" />
+    <text name="TenantCompanyPostalCode" value="Postal Code" />
+    <text name="TenantCompanyMailingPostalCode" value="Mailing Postal Code" />
+    <text name="TenantCompanyNote" value="Note" />
+    <text name="TenantHoursOfOperation" value="Hours" />
+    <text name="TenantCompanyHoursOfOperation" value="Company Hours" />
+    <text name="HoursOpenTime" value="Open" />
+    <text name="HoursCloseTime" value="Close" />
+    <text name="HoursLunchObserved" value="Lunch" />
+    <text name="DayOfWeek" value="Day" />
+    <text name="Monday" value="Monday" />
+    <text name="Tuesday" value="Tuesday" />
+    <text name="Wednesday" value="Wednesday" />
+    <text name="Thursday" value="Thursday" />
+    <text name="Friday" value="Friday" />
+    <text name="Saturday" value="Saturday" />
+    <text name="Sunday" value="Sunday" />
+    <text name="TenantLogoManagement" value="Company Logos" />
+    <text name="TenantHeaderImage" value="Main Logo" />
+    <text name="TenantCompanyHeaderImageNotation" value="Upload company logo max size of 255 pixels wide" />
+    <text name="UsingDefaultHeaderLogo" value="Using Default Logo" />
+    <text name="UsingDefaultHeaderLogoTooltip" value="Use this as the default logo for your store" />
+    <text name="TenantHeaderMobileImage" value="Mobile Logo" />
+    <text name="TenantCompanyHeaderMobileImageNotation" value="Upload company mobile logo max size of 160 pixels wide" />
+    <text name="UsingDefaultHeaderMobileLogo" value="Using Default Mobile Logo" />
+    <text name="UsingDefaultHeaderMobileLogoTooltip" value="Use this as the default mobile logo for your store" />
+    <text name="TenantMailmage" value="Mailing Logo" />
+    <text name="TenantCompanyMailImageNotation" value="Upload mail logo max size of 160 pixels wide" />
+    <text name="UsingDefaultMailLogo" value="Using Default Mailing Logo" />
+    <text name="UsingDefaultMailLogoTooltip" value="Use this as the default mailing logo for your store" />
+    <text name="TenantInvoiceImage" value="Invoice Logo" />
+    <text name="TenantCompanyInvoiceImageNotation" value="Upload invoice logo max size of 255 pixels wide" />
+    <text name="UsingDefaultInvoiceLogo" value="Using Default Invoice Logo" />
+    <text name="UsingDefaultInvoiceLogoTooltip" value="Use this as the default invoice logo for your store" />
+    <text name="NotificationsManagement" value="Notifications" />
+    <text name="NotificationsInstructions" value="Notification Instructions" />
+    <text name="NotificationsNewOrders" value="New Order" />
+    <text name="NotificationsNewCustomers" value="New Customer Added" />
+    <text name="NotificationsNewMessages" value="New Message Arrival" />
+    <text name="NotificationsLowPercentages" value="Low Tank Percentage" />
+    <text name="CustomerServicesManagement" value="Customer Service" />
+    <text name="TenantCompanyCustomerServicePhoneNumber" value="Customer Service Phone Number" />
+    <text name="TenantCompanyCustomerServicePhoneNumberEmergency" value="Emergency Customer Service Phone Number" />
+    <text name="TenantCompanyCustomerServiceEmail" value="Customer Service Email" />
+    <text name="TenantCompanyCustomerServiceNote" value="Customer Service Note" />
+    <text name="TenantCompanyCustomerServiceHoursOfOperation" value="Hours of Operation" />
+    <text name="HoursClickToSelect8To5MthruFCustomerService" value="Click to Select Monday thru Friday 8 am to 5 pm" />
+    <text name="HoursClickToSelect8To5MthruF" value="Click to Select Monday thru Friday 8 am to 5 pm" />
+    <text name="PaymentSettingsManagement" value="Payments" />
+    <text name="PaymentSettingsCustomersWithEmailsHeader" value="Payment Settings for Customers with Emails" />
+    <text name="PaymentSettingsEnableDeliveryReceiptEmailed" value="Enable Emailed Delivery Receipts" />
+    <text name="PaymentSettingsEnableInvoiceEmailed" value="Enable Emailed Invoices" />
+    <text name="PaymentSettingsEnableStatementEmailed" value="Enable Emailed Statements" />
+    <text name="PaymentSettingsAllowOnlinePayments" value="Allow Online Payments" />
+    <text name="PaymentSettingsPlansHeader" value="Payment Plans" />
+    <text name="PaymentSettingsEnablePrePurchase" value="Enable Pre Purchase" />
+    <text name="PaymentSettingsEnableInstallmentBilling" value="Enable Installment Billing" />
+    <text name="PaymentSettingsEnableBudgetBilling" value="Enable Budget Billing" />
+    <text name="PaymentSettingsEnableCapping" value="Enable Capping" />
+    <text name="PaymentSettingsEnableAutoPay" value="Enable Auto Pay" />
+    <text name="PaymentSettingsCustomersWithoutEmailsHeader" value="Payment Settings for Customers without Emails" />
+    <text name="PaymentSettingsEnablePrintedDeliveryReceipt" value="Enable Printed Delivery Receipts" />
+    <text name="PaymentSettingsEnablePrintedInvoice" value="Enable Printed Invoice" />
+    <text name="PaymentSettingsEnablePrintedStatement" value="Enable Printed Statements" />
+    <text name="PaymentSettingsCreditsAndCollectionsHeader" value="Credit and Collections" />
+    <text name="PaymentSettingsEnableReminderOne" value="Enable Payment Reminder 1" />
+    <text name="PaymentSettingsEnableReminderTwo" value="Enable Payment Reminder 2" />
+    <text name="PaymentSettingsEnableReminderThree" value="Enable Payment Reminder 3" />
+    <text name="PaymentSettingsEnableCODWarning" value="Enable COD Warning" />
+    <text name="PaymentSettingsEnableCOD" value="Enable Automatic COD" />
+    <text name="QuickMenuHeader" value="Quick Menu" />
+    <text name="QuickMenuItemNoItemsMessage" value="Quick Link" />
+    <text name="CreateNewQuickMenuItem" value="Create New Quick Menu Item" />
+    <text name="QuickMenuItemInformations" value="Quick Link Information" />
+    <text name="QuickMenuItemLabel" value="Label" />
+    <text name="QuickMenuItemUrl" value="URL Link" />
+    <text name="LoadInNewWindow" value="Open in New Window" />
+    <text name="QuickMenuItemUrlSecurityTooltip" value="Please enter the full URL link of where you want this to go" />
+    <text name="QuickMenuItemDeleteWarningMessage" value="This will delete this quick link item" />
+    <text name="ViewPhones" value="View/Edit Phone Numbers" />
+    <text name="ViewAddresses" value="View/Edit Addresses" />
+    <text name="ViewPayments" value="View/Edit Payments" />
+    <text name="DefaultPostLoginPage" value="Default Page" />
+    <text name="ShowScreencastOnDashboardAfterLogin" value="Show Intro Video" />
+    <text name="StatusGoNoGo" value="Status Go or NoGo" />
+    <text name="DateTimezoneSettingsManagement" value="Time Zones" />
+    <text name="TenantTimezone" value="Your Time Zone" />
+    <text name="Resource_FileUploadedToolTipOnTab" value="File has been uploaded" />
+    <text name="EstimateResourceDeleteWarningMessage" value="This will permanently delete this image" />
+    <text name="ResourceUseOtherTabToUploadResources" value="Use other tab to upload attachment" />
+    <text name="ManageEstimateResources" value="Attachments" />
+    <text name="EstimateOptions_AcceptedFileTypes" value="Acceptable File Types" />
+    <text name="ManageProjectResources" value="Attachments" />
+    <text name="ProjectOptions_AcceptedFileTypes" value="Acceptable File Types" />
+    <text name="ProjectResourceDeleteWarningMessage" value="This will permanently delete this image" />
+    <text name="ProductSurcharge" value="Surcharge" />
+    <text name="PersonsTitle" value="Title" />
+    <text name="AddressGeoInformations" value="Map View" />
+    <text name="CustomerAddressGeocoordinatePopulationOptions" value="Options" />
+    <text name="CustomerAddressGeocoordinate_UseCurrentlySavedData" value="Use Currently Saved" />
+    <text name="CustomerAddressGeocoordinate_UseMobileBrowser" value="Use Mobile Location" />
+    <text name="CustomerAddressGeocoordinate_UseManualEntry" value="Manually Enter Coordinates" />
+    <text name="CustomerAddressGeocoordinate_UseAddressOnSave" value="Use Current Address" />
+    <text name="CustomerAddressGeocoordinates" value="Coordinates" />
+    <text name="CustomerAddressLatitude" value="Latitude" />
+    <text name="CustomerAddressLongitude" value="Longitude" />
+    <text name="CustomerMapView" value="Map View" />
+    <text name="Done" value="Done" />
+    <text name="ZonePolygonInformations" value="Zone Polygon" />
+    <text name="ZoneHexColor" value="Zone Color" />
+    <text name="EditZone" value="Edit Delivery Zone" />
+    <text name="ViewZonesOnMap" value="Zone Map" />
+    <text name="ZonesMapView" value="Map View of All Zones" />
+    <text name="EstimateProductInformations" value="Products" />
+    <text name="EstimateAdhocProductInformations" value="Add a Product" />
+    <text name="EstimatesChooseProductsHeader" value="Choose Products" />
+    <text name="adhocProductName" value="Product Name" />
+    <text name="adhocProductBaseCost" value="Base Cost" />
+    <text name="adhocProductCost" value="Cost" />
+    <text name="adhocProductRetail" value="Retail" />
+    <text name="adhocProductDescription" value="Description" />
+    <text name="adhocProductIsTaxable" value="Taxable" />
+    <text name="EstimateTermType" value="Terms" />
+    <text name="EstimateDueDate" value="Due Date" />
+    <text name="EstimateTaskRetail" value="Retail" />
+    <text name="PaymentSettingsBillingTypeDefaultsHeader" value="Default Billing Rates" />
+    <text name="PaymentSettingsBillingTypes_HourlyStaffRate" value="Hourly Staff Rate" />
+    <text name="PaymentSettingsBillingTypes_HourlyProjectRate" value="Hourly Project Rate" />
+    <text name="PaymentSettingsBillingTypes_HourlyTaskRate" value="Hourly Task Rate" />
+    <text name="PaymentSettingsBillingTypes_FlateProjectAmount" value="Flat Project Rate" />
+    <text name="ProductPriceActiveProductActivePriceCannotBeMadeInActiveOrArchivedMessage" value="Product Price Cannot be made Active or Archived" />
+    <text name="EstimateManageResources" value="Manage Estimate Resources" />
+    <text name="SpecificPriceInformations" value="Specific Price Information" />
+    <text name="ProductSpecificPricesBeneficiaryHeader" value="Sets Specific Pricing for Products by Customer and Group" />
+    <text name="ProductPriceNewPriceActiveOverwriteMessage" value="This will overwrite current active price!" />
+    <text name="ProductSpecificPriceCountry" value="Country" />
+    <text name="ProductSpecificPriceOrganizationUnit" value="Price Group" />
+    <text name="ProductSpecificPriceCustomer" value="Customer" />
+    <text name="ProductSpecificPricesBaseCostAndCostHeader" value="Insert Specific Cost and Retail Details" />
+    <text name="ProductSpecificPriceCost" value="Cost" />
+    <text name="ProductSpecificPriceStartingAtQuantity" value="Minimum Quantity to Qualify" />
+    <text name="ProductSpecificPriceBaseCostOverride" value="Override Current Active Cost" />
+    <text name="ProductSpecificPricesAvailabilityHeader" value="Specific Price Availability" />
+    <text name="ProductSpecificPriceAvailableFrom" value="From Date" />
+    <text name="ProductSpecificPriceAvailableFromTime" value="From Time" />
+    <text name="ProductSpecificPriceAvailableTo" value="To Date" />
+    <text name="ProductSpecificPriceAvailableToTime" value="To Time" />
+    <text name="ProductSpecificPriceProductOption" value="Specific Option" />
+    <text name="ProductSpecificPricesDiscountHeader" value="Specific Discount Information" />
+    <text name="ProductSpecificPriceApplyADiscount" value="Apply Specific Discount" />
+    <text name="ProductSpecificPriceDiscount" value="Discount" />
+    <text name="ProductSpecificPriceDiscountIncludeTax" value="Include Tax" />
+    <text name="CreateNewSpecificPrice" value="Add New Specific Price" />
+    <text name="ProductSpecificPriceIdentifier" value="ID" />
+    <text name="ProductSpecificPriceBaseCost" value="Base Cost" />
+    <text name="ProductSpecificPriceAvailableBetween" value="From - To" />
+    <text name="Rights" value="Rights" />
+    <text name="Discounts" value="Discounts" />
+    <text name="CanModifyEstimateDiscount" value="Can Modify Estimate Discount" />
+    <text name="CanModifyInvoiceDiscount" value="Can Modify Invoice Discount" />
+    <text name="CanModifyProjectDiscount" value="Can Modify Project Discount" />
+    <text name="Pricing" value="Pricing" />
+    <text name="CanModifyEstimatePrice" value="Can Modify Estimate Price" />
+    <text name="CanModifyEstimateProductPrice" value="Can Modify Estimate Product Price" />
+    <text name="CanModifyInvoicePrice" value="Can Modify Invoice Price" />
+    <text name="CanModifyProjectPrice" value="Can Modify Project Price" />
+    <text name="FuelCast" value="FuelCast™" />
+    <text name="CreatingNewContact" value="Creating New Contact" />
+    <text name="Deleting Contact" value="Deleting Contact" />
+    <text name="EditingContact" value="Editing Contact" />
+    <text name="ExportingContacts" value="Exporting Contacts" />
+    <text name="CreatingNewEmergencyDeliveryFeeRule" value="Creating New Emergency Delivery Fee Rule" />
+    <text name="DeletingEmergencyDeliveryFeeRule" value="Deleting Emergency Delivery Fee Rule" />
+    <text name="EditingEmergencyDeliveryFeeRule" value="Editing Emergency Delivery Fee Rule" />
+    <text name="ExportingEmergencyDeliveryFeeRules" value="Exporting Emergency Delivery Fee Rules" />
+    <text name="CreatingNewEmergencyDeliveryFee" value="Creating New Emergency Delivery Fee" />
+    <text name="DeletingEmergencyDeliveryFee" value="Deleting Emergency Delivery Fee" />
+    <text name="EditingEmergencyDeliveryFee" value="Editing Emergency Delivery Fee" />
+    <text name="ExportingEmergencyDeliveryFees" value="Exporting Emergency Delivery Fees" />
+    <text name="ManagingOrganizationUnitProperties" value="Managing Group Properties" />
+    <text name="CreatingNewTaxRule" value="Creating New Tax Rule" />
+    <text name="DeletingTaxRule" value="Deleting Tax Rule" />
+    <text name="EditingTaxRule" value="Editing Tax Rule" />
+    <text name="ExportingTaxRules" value="Exporting Tax Rules" />
+    <text name="CreatingNewTax" value="Creating New Tax" />
+    <text name="DeletingTax" value="Deleting Tax" />
+    <text name="EditingTax" value="Editing Tax" />
+    <text name="ExportingTaxes" value="Exporting Taxes" />
+    <text name="CreatingNewTitle" value="Creating New Title" />
+    <text name="Deleting Title" value="Deleting Title" />
+    <text name="Editing Title" value="Editing Title" />
+    <text name="ExportingTitles" value="Exporting Titles" />
+    <text name="CreatingNewZone" value="Creating New Zone" />
+    <text name="DeletingZone" value="Deleting Zone" />
+    <text name="EditingZone" value="Editing Zone" />
+    <text name="ExportingZones" value="Exporting Zones" />
+    <text name="ExportingCustomersApplications" value="Exporting Customer Applications" />
+    <text name="CreatingNewInvoice" value="Creating New Invoice" />
+    <text name="DeletingInvoices" value="Deleting Invoices" />
+    <text name="EditingInvoice" value="Editing Invoice" />
+    <text name="ExportingInvoices" value="Exporting Invoices" />
+    <text name="CreatingNewProduct" value="Creating New Product" />
+    <text name="DeletingProducts" value="Deleting Products" />
+    <text name="EditingProducts" value="Editing Products" />
+    <text name="ExportingProducts" value="Exporting Products" />
+    <text name="DeletingEstimates" value="Deleting Estimates" />
+    <text name="Editing Estimate" value="Editing Estimate" />
+    <text name="ExportingEstimates" value="Exporting Estimates" />
+    <text name="CreatingNewProject" value="Creating New Project" />
+    <text name="DeletingProjects" value="Deleting Projects" />
+    <text name="EditingProject" value="Editing Project" />
+    <text name="ExportingProjects" value="Exporting Projects" />
+    <text name="OrganizationUnitProperty_SpecificPricesEnabled" value="Group Specific Prices Enabled" />
+    <text name="Permissions_UserNotAuthorizedMessage" value="Sorry, You Need Permissions For This" />
+    <text name="PaymentSettingsPaymentTermsHeader" value="Payment Terms" />
+    <text name="PaymentSettingsDefaultPaymentTerms" value="Default Payment Terms" />
+    <text name="EnableEmergencyDeliveryFees" value="Enable Emergency Delivery Fees" />
+    <text name="RequireOnePhoneNumberForRegistration" value="Require One Phone Number For Registration" />
+    <text name="SendEmailAfterRegistration" value="Send Email After Registration" />
+    <text name="ManageUnitProperties" value="Manage Group Properties" />
+    <text name="ViewImage" value="View Image" />
+    <text name="AdhocProductIsTaxable" value="Taxable" />
+    <text name="EstimateCustomerAddress" value="Address" />
+    <text name="EditDriversData" value="Edit Driver Credentials" />
+    <text name="DriversDataInformations" value="Driver Info" />
+    <text name="CDLNumber" value="CDL Number" />
+    <text name="CDLExpiration" value="Expiration Date" />
+    <text name="DriverHasHazmat" value="Has Hazmat" />
+    <text name="ProductPricesChooseTaxRulesMessage" value="Choose Tax Rules - Applied Tax Rules (right pane)" />
+    <text name="UseOfficeAddressForTaxes" value="Use Office Address for Taxes" />
+    <text name="EmergencyDeliveryFeeInformations" value="Emergency Delivery Fee Info" />
+    <text name="EmergencyDeliveryFeeCaption" value="Caption" />
+    <text name="TaxRuleInformations" value="Tax Rule Information" />
+    <text name="TitleImage" value="Image" />
+    <text name="EstimateAdjustmentInformations" value="Credit Item" />
+    <text name="adjustmentName" value="Name" />
+    <text name="adjustmentCost" value="Cost" />
+    <text name="adjustmentRetail" value="Retail" />
+    <text name="adjustmentDescription" value="Description" />
+    <text name="AdjustmentIsTaxable" value="Taxable" />
+    <text name="ProjectProductInformations" value="Products" />
+    <text name="ProjectAdhocProductInformations" value="Add a Product" />
+    <text name="ProjectAdjustmentInformations" value="Credit Item" />
+    <text name="ProjectsChooseProductsHeader" value="Choose Products" />
+    <text name="InvoiceTax" value="Invoice Tax" />
+    <text name="InvoiceBillingType" value="Billing Rate Group" />
+    <text name="InvoiceTermType" value="Terms" />
+    <text name="InvoiceLabel" value="Name" />
+    <text name="InvoiceDueDate" value="Due Date" />
+    <text name="InvoiceTaskRetail" value="Task Retail" />
+    <text name="InvoiceProductInformations" value="Products" />
+    <text name="InvoicesChooseProductsHeader" value="Choose Products" />
+    <text name="InvoiceAdhocProductInformations" value="Add a Product" />
+    <text name="InvoiceAdjustmentInformations" value="Credit Item" />
+    <text name="ProductPriceTaxRulesHeader" value="Applied Tax Rules" />
+    <text name="ProductSuppliersChooseSuppliersMessage" value="Applied Suppliers" />
+    <text name="CreateNewPhone" value="Add New Phone Number" />
+    <text name="ManageInvoiceResources" value="Attachments" />
+    <text name="InvoiceOptions_AcceptedFileTypes" value="Accepted File Formats" />
+    <text name="InvoiceTeamMembersInformations" value="Team Members" />
+    <text name="FindInSelectPlaceholder" value="Select" />
+    <text name="InvoiceTeamMembersChooseTeamMembersMessage" value="Applied Team Members" />
+    <text name="EditTaxRule" value="Edit Tax Rules" />
+    <text name="ZoneTaxInformations" value="Zone Tax Information" />
+    <text name="ZoneChooseTaxesMessage" value="Applied Taxes" />
+    <text name="EditInvoiceTeamMembers" value="Invoice Team Members" />
+    <text name="EmergencyDeliveryFeeDeleteWarningMessage" value="This will delete this Emergency Delivery Fee" />
+    <text name="ProjectConvertToInvoiceConfirmationMessage" value="This will convert this Project to an Invoice" />
+    <text name="InvoiceDeleteWarningMessage" value="This will delete this Invoice" />
+    <text name="IncludeEmergencyDeliveryFee" value="Include Emergency Delivery Fee" />
+    <text name="InvoiceEmergencyDeliveryFee" value="Emergency Delivery Fee" />
+    <text name="PaymentSettingsPaymentInvoiceNumberHeader" value="Invoice Numbers and Prefixes" />
+    <text name="PaymentSettingsInvoiceNumber_Prefix" value="Invoice Prefix" />
+    <text name="PaymentSettingsInvoiceNumber_StartingNumber" value="Starting Number" />
+    <text name="PaymentSettingsInvoiceNumber_CannotBeChangedAfterInitialSetup" value="Note: Once Starting Number is set, it cannot be changed afterwards" />
+    <text name="ZoneDeleteWarningMessage" value="This will delete this Zone" />
+    <text name="InvoiceCustomerAddress" value="Address" />
+    <text name="SendEmailAfterRegistrationMessage" value="Registration Message" />
+    <text name="ProjectDueDate" value="Due Date" />
+    <text name="ProjectTermType" value="Terms" />
+	  <text name="PrintEmail_CustomerEstimate" value="Customer Estimate" />
+	  <text name="PrintEmail_Summary" value="Summary" />
+	  <text name="PrintEmail_Status" value="Status" />
+	  <text name="PrintEmail_EstimateReferenceNumber" value="Reference Number" />
+	  <text name="PrintEmail_EstimateDate" value="Estimate Date" />
+	  <text name="PrintEmail_EstimateTotal" value="Estimate Total" />
+	  <text name="PrintEmail_EstimateInfo" value="Estimate Information" />
+	  <text name="PrintEmail_CustomerInformation" value="Customer Information" />
+	  <text name="PrintEmail_EstimateName" value="Estimate Name" />
+	  <text name="PrintEmail_DueDate" value="Due Date" />
+	  <text name="PrintEmail_PONumber" value="P.O. Number" />
+	  <text name="PrintEmail_Description" value="Estimate Description" />
+	  <text name="PrintEmail_ProductsIncluded" value="Products Included" />
+	  <text name="PrintEmail_ProductQuantity" value="Quantity" />
+	  <text name="PrintEmail_ProductImage" value="Image" />
+	  <text name="PrintEmail_ProductDescription" value="Product Description" />
+	  <text name="PrintEmail_ProductRetail" value="Price" />
+	  <text name="PrintEmail_Totals" value="Totals" />
+	  <text name="PrintEmail_EstimateTax" value="Sales Tax" />
+	  <text name="PrintEmail_AcceptEstimate" value="Accept Estimate" />
+	  <text name="PrintEmail_CustomerProject" value="Customer Project" />
+	  <text name="PrintEmail_ProjectReferenceNumber" value="Reference Number" />
+	  <text name="PrintEmail_ProjectDate" value="Project Date" />
+	  <text name="PrintEmail_ProjectTotal" value="Project Total" />
+	  <text name="PrintEmail_ProjectInfo" value="Project Information" />
+	  <text name="PrintEmail_ProjectName" value="Project Name" />
+	  <text name="PrintEmail_ProjectTax" value="Sales Tax" />
+	  <text name="PrintEmail_AcceptProject" value="Accept Project" />
+	  <text name="PrintEmail_CustomerInvoice" value="Customer Invoice" />
+	  <text name="PrintEmail_InvoiceReferenceNumber" value="Reference Number" />
+	  <text name="PrintEmail_InvoiceDate" value="Invoice Date" />
+	  <text name="PrintEmail_InvoiceTotal" value="Invoice Total" />
+	  <text name="PrintEmail_InvoiceInfo" value="Invoice Information" />
+	  <text name="PrintEmail_InvoiceName" value="Invoice Name" />
+	  <text name="PrintEmail_InvoiceTax" value="Sales Tax" />
+	  <text name="PrintEmail_AcceptInvoice" value="Accept Invoice" />
+	  <text name="EstimateView_SendSubject" value="Estimate Enclosed" />
+	  <text name="ProjectView_SendSubject" value="Project Enclosed" />
+	  <text name="InvoiceView_SendSubject" value="Invoice Enclosed" />
+    <text name="PrintEmail_EstimateHours" value="Estimate Hours" />
+    <text name="Print_DefaultNotFound_Body" value="Sorry, body of document not found." />
+    <text name="Print_DefaultNotFound_PageTitle" value="No Page Title" />
+    <text name="PrintEmail_TasksIncluded" value="Tasks Included" />
+    <text name="PrintEmail_TaskName" value="Task Name" />
+    <text name="PrintEmail_TaskNote" value="Note" />
+    <text name="PrintEmail_TaskRetail" value="Price" />
+    <text name="PrintEmail_MiscellaneousItemsIncluded" value="Miscellaneous Items Included" />
+    <text name="PrintEmail_AdhocProductName" value="Name" />
+    <text name="PrintEmail_AdhocProductDescription" value="Description" />
+    <text name="PrintEmail_AdhocProductRetail" value="Price" />
+    <text name="PrintEmail_CreditsAndReturns" value="Credits and Returns" />
+    <text name="PrintEmail_AdjustmentName" value="Name" />
+    <text name="PrintEmail_AdjustmentDescription" value="Description" />
+    <text name="PrintEmail_AdjustmentRefund" value="Amount" />
+    <text name="PrintEmail_EstimateDiscount" value="Discount" />
+    <text name="PrintEmail_ProductLineItemOptions" value="Product Option" />
+    <text name="PrintEmail_TimeEntryLog" value="Additional Notes" />
+    <text name="PrintEmail_Terms" value="Estimate Terms" />
+    <text name="PrintEmail_ProjectDiscount" value="Discount" />
+    <text name="PrintEmail_TaskDiscount" value="Discount" />
+    <text name="PrintEmail_InvoiceHours" value="Labor Hours" />
+    <text name="ProductDeleteWarningMessage" value="This Product will be Deleted!" />
+    <text name="ProductSpecificPricesDiscountIncludeTaxCheckedButMissingDiscountData" value="Need a Discount to Apply Tax To" />
+    <text name="SpecificPriceDeleteWarningMessage" value="Ths Specific Price will be Deleted!" />
+    <text name="PrintEmail_ProjectHours" value="Labor Hours" />
+    <text name="InvoiceInvoices" value="Invoices" />
+    <text name="InvoicePaymentTransactionDateTime" value="Date &amp; Time" />
+    <text name="InvoicePaymentResponse_AmountCharged" value="Amount" />
+    <text name="InvoicePaymentResponse_ResponseReason" value="Response" />
+    <text name="InvoicePaymentResponse_TransactionResponseMessage" value="Message" />
+    <text name="InvoicePaymentResponse_AuthCode" value="Authorization Code" />
+    <text name="InvoicePaymentResponse_TransId" value="Transaction ID" />
+    <text name="ViewPayment" value="View Payment" />
+    <text name="InvoiceInformation" value="Invoice Info" />
+    <text name="TransactionInformation" value="Transaction Info" />
+    <text name="PaymentResponse_TransactionDateTime" value="Date &amp; Time" />
+    <text name="PaymentResponse_TransactionStatusReason" value="Status Reason" />
+    <text name="PaymentResponse_TransactionStatusCode" value="Status Code" />
+    <text name="PaymentResponse_BankMessage" value="Bank Message" />
+    <text name="PaymentResponse_EXactMessage" value="EXact Message" />
+    <text name="PaymentResponse_AuthCode" value="Authorization Code" />
+    <text name="PaymentResponse_TransId" value="Transaction ID" />
+    <text name="PaymentResponse_TransactionAmount" value="Transaction Amount" />
+    <text name="PaymentResponse_TransactionReceipt" value="Receipt" />
+    <text name="PaymentResponse_TransactionResponeObject" value="Response Detail" />
+    <text name="InvoicePayments" value="Payments" />
+    <text name="PaymentIdentifier" value="ID" />
+    <text name="ExportedToReporting" value="Exported" />
+    <text name="PaymentsHeaderInfo" value="Manage Payments" />
+    <text name="PaymentGatewaySettingsManagement" value="Payment Gateway Settings" />
+    <text name="PaymentGateways_AvailableGateways" value="Available Gateways" />
+    <text name="PayeezyGatewaySettings" value="Payeezy Gateway Settings" />
+    <text name="PayEezy_x_login" value="Payeezy Login" />
+    <text name="CaseSensitive" value="Case Sensitive" />
+    <text name="TwentyCharacterMax" value="Twenty Character max" />
+    <text name="PayEezy_PaymentPageId" value="Payeezy Payment Page ID" />
+    <text name="Payeezy" value="Payeezy" />
+    <text name="PayEezy_x_transaction_key" value="Payeezy Transaction Key" />
+    <text name="PayEezy_PaymentPage_Security_TansactionKey" value="Payment Page Security Key" />
+    <text name="PayEezy_x_description" value="Description" />
+    <text name="PayEezy_x_gateway_id" value="Gateway ID" />
+    <text name="DescriptionHelpMessage" value="Help Message" />
+    <text name="PayEezy_x_test_request" value="Testing" />
+    <text name="TestOrProductionHelpMessage" value="Check if Testing Payeezy" />
+    <text name="PayEezy_x_email_customer" value="Email Customer" />
+    <text name="MayResultInMultipleEmailsBeingSent" value="May Result in Multiple Email Customer Receipts being sent" />
+    <text name="LoadingWithThreeDot">Loading...</text>
+    <text name="ManPay001">Transaction recorded</text>
+    <text name="ManPay002">FW</text>
+    <text name="ManPay003">T</text>
+    <text name="ManPay004">Manually processed payment</text>
+    <text name="NSlashA">n/a</text>
+    <text name="PaymentResponse_PaymentNotes" value="Payment Note" />
+    <text name="Payments" value="Payments" />
+    <text name="InvoicePaymentCustomer" value="Customer" />
+    <text name="AllowBillPay" value="Allow Online Payments" />
+    <text name="PaymentAssistanceParticipant" value="Payment Assistance" />
+    <text name="Allow" value="" />
+    <text name="CreateNewPayment" value="Add a Payment" />
+    <text name="PaymentInformations" value="Real Time Processing" />
+    <text name="RecordPaymentInformations" value="Record Payment" />
+    <text name="InvoiceOverageNewInvoiceDefaultStatus" value="Credit" />
+    <text name="InvoiceOverageNewInvoiceDefaultAdjustmentName" value="Credit Item" />
+    <text name="InvoiceOverageNewInvoiceDefaultAdjustmentDescription" value="Credit Memo" />
+    <text name="PaymentMessage" value="Either copy full payment down or enter payment amount" />
+    <text name="PaymentMadeButNotPaid" value="Partial Payment" />
+    <text name="OutstandingBalance" value="with outstanding balance of" />
+    <text name="InvoiceAmount" value="Invoice Amount" />
+    <text name="InvoiceAmountMessage" value="Original Invoice Amount " />
+    <text name="PaymentAmount" value="Payment Amount" />
+    <text name="PaymentAmountNewWindowMessage" value="Please enter the payment amount for this transaction" />
+    <text name="CopyInvoiceAmountIntoPaymentAmountField" value="Copy Invoice Amount Into Payment Amount Field" />
+    <text name="PaymentAmountIsOverInvoiceAmountConfirmationMessage" value="Payment Amount is Over Invoice Amount" />
+    <text name="PaymentAmountWarning_MustCheckPaymentAmountGreaterThanInvoiceAmount" value="Please Confirm Overpayment of Invoice" />
+    <text name="PayNow" value="Pay Now" />
+    <text name="PaymentNotation" value="Add note" />
+    <text name="DoNotClickProceedUntilPaymentIsSubmittedAndPaymentWindowHasClosed" value="Only Proceed After Confirmation!" />
+    <text name="PaymentWindowIsOpenDoNOTClickProceedUntilItCloses" value="Payment Window is Open! Do NOT proceed Until it Closes" />
+    <text name="PaymentStartedInNewWindowMessage" value="Payment has Started in New Window" />
+    <text name="PaymentTransactionComplete" value="Payment Transaction Completed" />
+    <text name="PaymentAmountError_LessThanEqualToZero" value="Cannot Make a Zero Payment" />
+    <text name="InvoiceNumberOfSubmittedPayments" value="Submitted Payments" />
+    <text name="InvoiceTotalOfSubmittedPayments" value="Payment Total" />
+    <text name="Paid" value="Paid" />
+    <text name="TotalPaid" value="Total" />
+    <text name="DeletingContact" value="Delete Contacts" />
+    <text name="DeletingTitle" value="Delete Titles" />
+    <text name="EditingTitle" value="Edit Titles" />
+    <text name="FuelLots" value="Fuel Lots" />
+    <text name="CreatingNewFuelLots" value="Add New Fuel Lots" />
+    <text name="DeletingFuelLots" value="Delete Fuel Lots" />
+    <text name="EditingFuelLot" value="Edit Fuel Lot" />
+    <text name="ExportingFuelLots" value="Export Fuel Lots" />
+    <text name="Trucks" value="Trucks" />
+    <text name="CreatingNewTruck" value="Add New Truck" />
+    <text name="DeletingTrucks" value="Delete Trucks" />
+    <text name="EditingTruck" value="Edit Trucks" />
+    <text name="ExportingTrucks" value="Export Trucks" />
+    <text name="CreatingNewInvoicePayment" value="Add New Invoice Payments" />
+    <text name="ExportingInvoicePayments" value="Export Invoice Payments" />
+    <text name="EditingProduct" value="Edit Products" />
+    <text name="EditingEstimate" value="Edit Estimates" />
+    <text name="Assets" value="Assets" />
+    <text name="CanModifyFillLotTankCapacities" value="Modify Fill Lot Tank Capacities" />
+    <text name="CanModifyInvoiceProductPrice" value="Modify Invoice Product Prices" />
+    <text name="CanModifyProjectProductPrice" value="Modify Project Product Prices" />
+    <text name="TrucksHeaderInfo" value="Manage Trucks" />
+    <text name="TruckIdentifier" value="Truck ID" />
+    <text name="Remaining Capacity" value="Remaining Fuel" />
+    <text name="CreateNewTruck" value="Add New Truck" />
+    <text name="TruckInformations" value="Truck Information" />
+    <text name="TruckImage" value="Truck Image" />
+    <text name="Number" value="Number" />
+    <text name="Capacity" value="Capacity" />
+    <text name="ChangeTruckImage" value="Update Truck Image" />
+    <text name="TruckImage_Change_Info" value="Please select a new truck image from your device" />
+    <text name="TruckImage_UpdatedMessage" value="Truck Image Updated Successfully" />
+    <text name="TruckImageDeleteWarningMessage" value="Truck Image will be deleted!" />
+    <text name="TruckImage_DeletedMessage" value="Truck Image Deleted" />
+    <text name="TruckDeleteWarningMessage" value="Truck will be deleted!" />
+    <text name="Truck_DeletedMessage" value="Truck Deleted" />
+    <text name="FillLots" value="Fuel Lots" />
+    <text name="FillLotsHeaderInfo" value="Manage Fuel Lots" />
+    <text name="FillLotIdentifier" value="Fuel Lot ID" />
+    <text name="FillLotLabel" value="Fuel Lot Name" />
+    <text name="FillLotNumber" value="Fuel Lot Number" />
+    <text name="FillLotAddress" value="Address" />
+    <text name="FillLotNumberOfTanks" value="Number of Tanks" />
+    <text name="CreateNewFuelLot" value="Add New Fuel Lot" />
+    <text name="CreateNewFillLot" value="Add New Fuel Lot" />
+    <text name="FuelLotInformations" value="Fuel Lot Information" />
+    <text name="FuelLotsShortLabel" value="Nickname" />
+    <text name="FuelLotDescription" value="Description" />
+    <text name="FuelLotTankInformations" value="Tank Information" />
+    <text name="FuelLotTankNumber" value="Tank Number" />
+    <text name="FuelLotTankCapacity" value="Tank Capacity" />
+    <text name="FuelLotTankRemainingCapacity" value="Fuel Remaining" />
+    <text name="FuelLotTankDescription" value="Tank Description" />
+    <text name="FuelLotTankName" value="Tank Name" />
+    <text name="TankIsActive" value="Active" />
+    <text name="FuelLotTankLastInspectionDate" value="Last Tank Inspection Date" />
+    <text name="FuelLotTankLastInspectionComments" value="Inspection Comments" />
+    <text name="FuelLotAddressNeededMessage" value="Need Fuel Lot Address" />
+    <text name="FuelLotAddressUpdatingPleaseWait" value="Fuel Lot Address Updating, Please Wait" />
+    <text name="FuelLotAddress" value="Fuel Lot Address" />
+    <text name="ViewAddressOnGoogleMap" value="View Address on Google Map" />
+    <text name="MapView" value="Map View" />
+    <text name="FuelLotViewOnMap" value="Fuel Lot" />
+    <text name="ViewServices" value="View Services" />
+    <text name="InvoiceManageResources" value="Manage Invoice Resources" />
+    <text name="InvoiceCannotDeleteInvoiceWithpaymentsMessage" value="Cannot Delete Invoice with Payments" />
+    <text name="PrintEmail_InvoicePayment" value="Payment" />
+    <text name="PrintEmail_InvoiceBalance" value="New Balance" />
+    <text name="InvoiceTotalMustBeGreaterThanZeroToMakePaymentsMessage" value="Invoice Total Must Be Greater Than Zero To Make a Payment" />
+    <text name="EstimateViewProject" value="View Project" />
+    <text name="ProjectManageResources" value="Manage Project Resources" />
+    <text name="ProjectSend" value="Email Project" />
+    <text name="SuccessfullySent" value="Sent Successfully" />
+    <text name="ConvertedToInvoiceProjectMarkedInactive" value="Converted to Invoice and marked Inactive" />
+    <text name="SuccessfullyConvertedProjectToInvoice" value="Successfully Converted Project to Invoice" />
+
+    <text name="FuelLotLabel" value="Fuel Lot Name" />
+    <text name="FuelLotShortLabel" value="Nickname" />
+    <text name="RemainingCapacity" value="Remaining Capacity" />
+    <text name="EditTruck" value="Manage Truck" />
+    <text name="DoNotDeliver" value="Do Not Deliver" />
+    <text name="CustomerDeliveryType" value="Customer Delivery Type" />
+    <text name="CustomerDeliveryType_Automatic" value="Automatic" />
+    <text name="CustomerDeliveryType_WillCall" value="Will Call" />
+    <text name="CustomerPaymentType" value="Customer Payment Type" />
+    <text name="CustomerPaymentType_Prepay" value="Prepay" />
+    <text name="CustomerPaymentType_Charge" value="Charge" />
+    <text name="ConvertCustomerToUserPrefilledFormMessage" value="Proceeding Will Convert this Customer to a Login Customer User by Default" />
+    <text name="AddressWeatherStationInformations" value="Weather Station Information" />
+    <text name="FindWeatherStationHeader" value="Find Weather Station" />
+    <text name="FindWeatherStationDirections" value="Please review and select which weather station location is the best for this service address" />
+    <text name="SuggestedWeatherStationIdIs" value="Suggested Weather Station ID" />
+    <text name="UseSuggested" value="Use Suggested" />
+    <text name="FindYourClosestWeatherStationID" value="Search for other Weather Station ID's and manually enter your choice" />
+    <text name="WeatherStationId" value="Weather Station ID" />
+    <text name="VerifyWeatherStation" value="Verify Weather Station" />
+    <text name="WeatherStationValidationSuccessful" value="Weather Station Validation Successful" />
+    <text name="ViewWeatherStation" value="View Weather Station" />
+    <text name="VerifyWeatherStationStationIdRequired" value="Weather Station ID Required" />
+    <text name="ServiceTankInformations" value="Tank Information" />
+    <text name="ServiceTypes" value="Service Type" />
+    <text name="ServiceTankNumber" value="Tank Serial Number" />
+    <text name="ServiceTanks_RemainingCapacity" value="Remaining Percentages" />
+    <text name="ServiceTankRemainingCapacity" value="Estimated Remaining Tank %" />
+    <text name="ServiceTanks_Capacity" value="Tank Capacities" />
+    <text name="ServiceTankCapacity" value="Capacity" />
+    <text name="ServiceTankDescription" value="Tank Description" />
+    <text name="ServiceTankName" value="Tank Name" />
+    <text name="TankIsOwned" value="Tank Owned by Customer" />
+    <text name="ServiceTankLastInspectionDate" value="Tank Last Inspection Date" />
+    <text name="ServiceTankLastInspectionComments" value="Tank Inspection Comments" />
+    <text name="FormValidationFailed" value="Please Fill in Required Fields" />
+    <text name="FuelCastSettings" value="FuelCast™ Settings" />
+    <text name="EditingFuelCastSettings" value="Edit FuelCast™ Settings" />
+    <text name="CreatingNewFuelLot" value="Create New Fuel Lot" />
+    <text name="Customer" value="Customer" />
+    <text name="CanAddAddresses" value="Can Add Addresses" />
+    <text name="CanAddPayments" value="Can Add Payments" />
+    <text name="CanAddPhones" value="Can Add Phones" />
+    <text name="CanAddServices" value="Can Add Services" />
+    <text name="CanDeleteAddresses" value="Can Delete Addresses" />
+    <text name="CanDeletePayments" value="Can Delete Payments" />
+    <text name="CanDeletePhones" value="Can Delete Phones" />
+    <text name="CanDeleteServices" value="Can Delete Services" />
+    <text name="CanEditAddresses" value="Can Edit Addresses" />
+    <text name="CanEditPhones" value="Can Edit Phones" />
+    <text name="CanEditServices" value="Can Edit Services" />
+    <text name="CanModifyServicesTankCapacity" value="Can Modify Tank Capacity" />
+    <text name="CanViewPayments" value="Can View Payments" />
+    <text name="ZoneTaxes" value="Zone Taxes" />
+    <text name="Payment_NoPayment" value="Not Paid" />
+    <text name="Payment_NoPaymentAccepted_LineTotalEqualZero" value="Invoice Total is Zero, Cannot Accept Payment" />
+    <text name="PaymentRecordPaymentMessage" value="Record a Payment" />
+    <text name="PaymentRecordNow" value="Record Payment Now" />
+    <text name="PaymentExactAmount" value="Paid" />
+    <text name="Payment_OverPaid" value="Over Paid" />
+    <text name="PaidTotalVisualStatus" value="Paid Visual Status" />
+  </texts>
+</localizationDictionary>
